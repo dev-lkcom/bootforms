@@ -8,9 +8,15 @@
         }
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dev-lkcom/form"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "adamwathan/form": "^0.9.0"
+        "adamwathan/form": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
